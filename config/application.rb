@@ -19,8 +19,8 @@ module Dropboxapp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    Dropbox::API::Config.app_key    = 'ab55pnos208c4k2'
-    Dropbox::API::Config.app_secret = 'e5ql8hbwn6gvifx'
+    Dropbox::API::Config.app_key    = 'app_key'
+    Dropbox::API::Config.app_secret = 'app_secret'
     Dropbox::API::Config.mode = 'dropbox'
   end
 end
